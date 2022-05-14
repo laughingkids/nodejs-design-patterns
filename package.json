@@ -12,11 +12,6 @@
     "semantic-release": "semantic-release",
     "semantic-commitlint": "semantic-commitlint"
   },
-  "release": {
-    "verifyRelease": [
-      "semantic-commitlint"
-    ]
-  },
   "husky": {
     "hooks": {
       "prepare-commit-msg": "npm run semantic-commitlint -- -h"
