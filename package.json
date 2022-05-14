@@ -2,7 +2,7 @@
   "name": "nodejs-design-patterns",
   "version": "0.0.0-development",
   "main": "src/index.ts",
-  "repository": "https://github.com/LaughingKids/nodejs-design-patterns.git",
+  "repository": "git@github.com:LaughingKids/nodejs-design-patterns.git",
   "author": "Thomas Wang <thomas.wang@domain.com.au>",
   "license": "MIT",
   "scripts": {
