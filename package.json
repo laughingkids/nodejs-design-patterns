@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-design-patterns",
+  "version": "0.0.0-development",
+  "main": "src/index.ts",
+  "repository": "https://github.com/LaughingKids/nodejs-design-patterns.git",
+  "author": "Thomas Wang <thomas.wang@domain.com.au>",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn run build:live",
+    "build": "npx tsc -p .",
+    "build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.33",
+    "nodemon": "^2.0.16",
+    "semantic-release": "^19.0.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.4"
+  }
+}
